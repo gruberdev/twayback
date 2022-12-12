@@ -1,2 +1,9 @@
 image:
   file: Dockerfile
+vscode:
+  extensions:
+    - janisdd.vscode-edit-csv@0.7.2
+    - ms-python.python@2022.21.13431008
+tasks:
+  - name: Showcase
+    command: python3 twayback.py
